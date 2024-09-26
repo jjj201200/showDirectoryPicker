@@ -1,0 +1,27 @@
+{
+    "manifest_version": 3,
+    "minimum_chrome_version": "119.0.0",
+    "version": "1.0.0",
+    "name": "showDirectoryPicker",
+    "short_name": "showDirectoryPicker",
+    "description": "smallest project with error in showDirectoryPicker method",
+    "icons": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    },
+    "background": {
+        "service_worker": "initBackground.sw.js"
+    },
+    "action": {
+        "default_icon": {
+            "19": "icon.png",
+            "38": "icon.png"
+        }
+    },
+    "permissions": [
+        "downloads",
+        "tabs",
+        "offscreen"
+    ]
+}
