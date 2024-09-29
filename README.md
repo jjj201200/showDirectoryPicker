@@ -9,3 +9,5 @@ Step:
 Expected result: a promise with `FileSystemDirectoryHandle`
 
 Current result: a error `AbortError: Failed to execute 'showDirectoryPicker' on 'Window': The user aborted a request.`
+
+[Video](https://github.com/jjj201200/showDirectoryPicker/blob/main/showDirectoryPicker.mp4)
